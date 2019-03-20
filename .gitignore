@@ -1,10 +1,14 @@
-# 忽略.csv文件
+# 忽略各类资源文件和配置文件
 *.csv
 *.txt
 *.jpg
 *.log
 *.html
-*.pdf
+.DS_Store
+
+# 忽略文件夹
+/toy_examples/可视化/
+/toy_examples/微博/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
