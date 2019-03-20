@@ -9,6 +9,7 @@
 # 忽略文件夹
 /toy_examples/可视化/
 /toy_examples/微博/
+!/toy_examples/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
