@@ -2,6 +2,7 @@ from sklearn.cluster import KMeans
 from sklearn import preprocessing
 import pandas as pd
 import numpy as np
+
 # 输入数据
 data = pd.read_csv(r"D:\\python_code\\sample\\K-Means\\kmeans-master\\data.csv", encoding='gbk')
 train_x = data[["2019年国际排名","2018世界杯","2015亚洲杯"]]

@@ -7,6 +7,7 @@
 .DS_Store
 *.zip
 2019搜狐校园算法大赛
+data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

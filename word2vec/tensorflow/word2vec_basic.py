@@ -107,7 +107,7 @@ def build_dataset(words, n_words):
 
 data, count, dictionary, reverse_dictionary = build_dataset(vocabulary,
                                                             vocabulary_size)
-del vocabulary  # 删除已节省内存
+del vocabulary  # 删除以节省内存
 # 输出最常出现的5个单词
 print('Most common words (+UNK)', count[:5])
 # 输出转换后的数据库data，和原来的单词（前10个）
@@ -229,7 +229,6 @@ with graph.as_default():
 
   # 变量初始化步骤
   init = tf.global_variables_initializer()
-
 
 
 # 第五步：开始训练
